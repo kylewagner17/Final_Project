@@ -1,0 +1,9 @@
+.\ultrasonic.o: Ultrasonic.c
+.\ultrasonic.o: D:\Keil\ARM\Inc\TI\TM4C123\tm4c123gh6pm.h
+.\ultrasonic.o: D:\Keil\ARM\CMSIS\Include\core_cm4.h
+.\ultrasonic.o: D:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\ultrasonic.o: D:\Keil\ARM\CMSIS\Include\core_cmInstr.h
+.\ultrasonic.o: D:\Keil\ARM\CMSIS\Include\core_cmFunc.h
+.\ultrasonic.o: D:\Keil\ARM\CMSIS\Include\core_cm4_simd.h
+.\ultrasonic.o: D:\Keil\ARM\Inc\TI\TM4C123\system_TM4C123.h
+.\ultrasonic.o: Ultrasonic.h
