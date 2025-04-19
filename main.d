@@ -8,3 +8,4 @@
 .\main.o: D:\Keil\ARM\Inc\TI\TM4C123\system_TM4C123.h
 .\main.o: ultrasonic.h
 .\main.o: ir.h
+.\main.o: motor_driver.h

@@ -1,0 +1,9 @@
+.\motor_driver.o: motor_driver.c
+.\motor_driver.o: D:\Keil\ARM\Inc\TI\TM4C123\tm4c123gh6pm.h
+.\motor_driver.o: D:\Keil\ARM\CMSIS\Include\core_cm4.h
+.\motor_driver.o: D:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\motor_driver.o: D:\Keil\ARM\CMSIS\Include\core_cmInstr.h
+.\motor_driver.o: D:\Keil\ARM\CMSIS\Include\core_cmFunc.h
+.\motor_driver.o: D:\Keil\ARM\CMSIS\Include\core_cm4_simd.h
+.\motor_driver.o: D:\Keil\ARM\Inc\TI\TM4C123\system_TM4C123.h
+.\motor_driver.o: motor_driver.h

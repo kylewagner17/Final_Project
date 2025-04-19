@@ -406,11 +406,6 @@
           <GroupName>Source Group 1</GroupName>
           <Files>
             <File>
-              <FileName>IR.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\IR.c</FilePath>
-            </File>
-            <File>
               <FileName>startup_TM4C123.s</FileName>
               <FileType>2</FileType>
               <FilePath>..\..\ARM\Startup\TI\TM4C123\startup_TM4C123.s</FilePath>
@@ -419,6 +414,21 @@
               <FileName>system_TM4C123.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\ARM\Startup\TI\TM4C123\system_TM4C123.c</FilePath>
+            </File>
+            <File>
+              <FileName>Main.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Main.c</FilePath>
+            </File>
+            <File>
+              <FileName>IR.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\IR.c</FilePath>
+            </File>
+            <File>
+              <FileName>Ultrasonic.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Ultrasonic.c</FilePath>
             </File>
           </Files>
         </Group>

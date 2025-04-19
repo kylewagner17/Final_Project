@@ -1,4 +1,4 @@
-.\system_tm4c123.o: ..\..\ARM\Startup\TI\TM4C123\system_TM4C123.c
+.\system_tm4c123.o: ..\..\..\ARM\Startup\TI\TM4C123\system_TM4C123.c
 .\system_tm4c123.o: D:\Keil\ARM\ARMCC\bin\..\include\stdint.h
 .\system_tm4c123.o: D:\Keil\ARM\Inc\TI\TM4C123\TM4C123.h
 .\system_tm4c123.o: D:\Keil\ARM\Inc\TI\TM4C123\TM4C123GH6PM.h
