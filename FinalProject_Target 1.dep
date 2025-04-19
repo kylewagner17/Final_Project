@@ -1,5 +1,5 @@
 Dependencies for Project 'FinalProject', Target 'Target 1': (DO NOT MODIFY !)
-F (.\Main.c)(0x68032740)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+F (.\Main.c)(0x6803DD85)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\main.o --omf_browse .\main.crf --depend .\main.d)
 I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x51C86E14)
 I (D:\Keil\ARM\Inc\TI\TM4C123\tm4c123gh6pm.h)(0x532C9CD8)
 I (D:\Keil\ARM\CMSIS\Include\core_cm4.h)(0x532CA082)
@@ -9,7 +9,7 @@ I (D:\Keil\ARM\CMSIS\Include\core_cm4_simd.h)(0x532CA082)
 I (D:\Keil\ARM\Inc\TI\TM4C123\system_TM4C123.h)(0x532C9CD8)
 I (ultrasonic.h)(0x68026184)
 I (ir.h)(0x68026183)
-I (motor_driver.h)(0x680320AA)
+I (motor_driver.h)(0x6803D0F5)
 F (.\IR.c)(0x68026182)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\ir.o --omf_browse .\ir.crf --depend .\ir.d)
 I (D:\Keil\ARM\Inc\TI\TM4C123\tm4c123gh6pm.h)(0x532C9CD8)
 I (D:\Keil\ARM\CMSIS\Include\core_cm4.h)(0x532CA082)
@@ -38,7 +38,7 @@ I (D:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532CA082)
 I (D:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532CA082)
 I (D:\Keil\ARM\CMSIS\Include\core_cm4_simd.h)(0x532CA082)
 I (D:\Keil\ARM\Inc\TI\TM4C123\system_TM4C123.h)(0x532C9CD8)
-F (.\motor_driver.c)(0x6803227A)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\motor_driver.o --omf_browse .\motor_driver.crf --depend .\motor_driver.d)
+F (.\motor_driver.c)(0x6803DD6B)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\motor_driver.o --omf_browse .\motor_driver.crf --depend .\motor_driver.d)
 I (D:\Keil\ARM\Inc\TI\TM4C123\tm4c123gh6pm.h)(0x532C9CD8)
 I (D:\Keil\ARM\CMSIS\Include\core_cm4.h)(0x532CA082)
 I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x51C86E14)
@@ -46,4 +46,4 @@ I (D:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532CA082)
 I (D:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532CA082)
 I (D:\Keil\ARM\CMSIS\Include\core_cm4_simd.h)(0x532CA082)
 I (D:\Keil\ARM\Inc\TI\TM4C123\system_TM4C123.h)(0x532C9CD8)
-I (motor_driver.h)(0x680320AA)
+I (motor_driver.h)(0x6803D0F5)

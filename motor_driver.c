@@ -33,7 +33,7 @@ void Motor_Init(void) {
     PWM1->_3_GENB = 0x0000080C;          // Set PF3 PWM output behavior
     PWM1->_3_LOAD = 7999;               // Set period for 1 kHz PWM
     PWM1->_3_CMPA = 4000;               // 50% duty cycle for M1PWM6 (PF2)
-    PWM1->_3_CMPB = 4000;               // 50% duty cycle for M1PWM7 (PF3)
+    PWM1->_3_CMPB = 4400;               // 50% duty cycle for M1PWM7 (PF3)
     PWM1->_3_CTL |= 0x01;               // Enable PWM Generator 3
     PWM1->ENABLE |= 0xC0;               // Enable M1PWM6 and M1PWM7
 }
@@ -58,3 +58,8 @@ void Motor_RotateRight(void) {
 void Motor_Stop(void) {
     GPIOD->DATA = 0x00;
 }
+
+void Motor_Brake(void) {
+	GPIOD->DATA = 0x0F;
+}
+
