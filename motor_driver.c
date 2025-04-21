@@ -1,4 +1,3 @@
-// motor_driver.c
 #include "tm4c123gh6pm.h"
 #include "motor_driver.h"
 
@@ -38,28 +37,34 @@ void Motor_Init(void) {
     PWM1->ENABLE |= 0xC0;               // Enable M1PWM6 and M1PWM7
 }
 
+//Rotates both motors forward
 void Motor_Forward(void) {
     GPIOD->DATA = 0x05; // IN1 = 1, IN2 = 0, IN3 = 1, IN4 = 0
 }
 
+//Rotates both motors backward
 void Motor_Backward(void) {
 
     GPIOD->DATA = 0x0A; // IN1 = 0, IN2 = 1, IN3 = 0, IN4 = 1
 }
 
+//Rotates right motor forward and left motor backwards for a zero point left turn
 void Motor_RotateLeft(void) {
     GPIOD->DATA = 0x06; // IN1 = 0, IN2 = 1, IN3 = 1, IN4 = 0
 }
 
+//Rotates left motor forward and right motor backwards for a zero point right turn
 void Motor_RotateRight(void) {
     GPIOD->DATA = 0x09; // IN1 = 1, IN2 = 0, IN3 = 0, IN4 = 1
 }
 
+// Stops the motor rotating in either direction, momentum can continue to push the device forward as the tires will still rotate
 void Motor_Stop(void) {
-    GPIOD->DATA = 0x00;
+    GPIOD->DATA = 0x00; // IN1 = 0, IN2 = 0, IN3 = 0, IN4 = 0
 }
 
+// Actively holds the motor/tires from rotating, tires should not rotate due to momentum
 void Motor_Brake(void) {
-	GPIOD->DATA = 0x0F;
+	GPIOD->DATA = 0x0F;   // IN1 = 1, IN2 = 1, IN3 = 1, IN4 = 1
 }
 

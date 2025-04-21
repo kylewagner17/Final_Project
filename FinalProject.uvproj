@@ -430,6 +430,11 @@
               <FileType>1</FileType>
               <FilePath>..\..\..\ARM\Startup\TI\TM4C123\system_TM4C123.c</FilePath>
             </File>
+            <File>
+              <FileName>motor_driver.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\motor_driver.c</FilePath>
+            </File>
           </Files>
         </Group>
       </Groups>

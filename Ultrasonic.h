@@ -1,4 +1,3 @@
-
 #ifndef ULTRASONIC_SENSOR_H
 #define ULTRASONIC_SENSOR_H
 #include "tm4c123gh6pm.h"

@@ -1,0 +1,30 @@
+BEGIN
+	Initialize ultrasonic sensor, IR sensor, motor driver
+
+	LOOP:
+		Measure distance in front using ultrasonic sensor
+		Delay 5 ms
+
+		IF (ultrasonic distance < 1.0 cm) THEN:
+			Motor brake to stop
+			Read left IR sensor value from ADC channel 0
+			Read right IR sensor value from ADC channel 1
+			delay 100 ms
+
+			IF (left IR detects object) THEN:
+				Turn right for 200 ms
+
+			ELSE IF (right IR detects object) THEN:
+				Turn left for 200 ms
+
+			ELSE IF (both IR detect object) THEN:
+				Turn left for 200 ms
+
+			ELSE: 
+				Default avoidance: turn right for 200 ms
+
+		ELSE:
+			Move forward
+
+	END LOOP
+END
